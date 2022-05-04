@@ -1,0 +1,411 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+h1 a:visited {
+    color: #EE3322;
+}
+
+
+header {
+    /*border: 2px solid black;*/
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.103);
+    position: fixed;
+    z-index: 1;
+}
+header h1 {
+    /*border: 2px solid red;*/
+    font-weight: 800;
+    font-size: 2.4em;
+
+    background-color: white;
+    border-bottom: 1px solid #f3f2f2;
+    color: #EE3322;
+
+    margin: 0px 90px;
+    padding: 10px 0px 15px 40px;
+    
+}
+
+/*===========================================*/
+/*=============Menu de navegação=============*/
+/*===========================================*/
+nav a:hover {
+    color: #696969;
+}
+
+header nav ul {
+    background-image: url('../img/bus-2.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 45px;
+    
+}
+
+header nav ul {
+    /*border: 1px solid yellow;*/
+    margin: 0px 90px;
+    padding: 20px 0px 20px 0px;
+}
+header nav ul li {
+    display: inline;
+    width: 100%;
+
+    margin-right: 23px;
+
+    font-size: 15px;
+    font-weight: bolder;
+}
+li img {
+    width: 45px;
+    margin-top: 20px;
+}
+
+/*===========================================*/
+/*=============Conteúdo principal============*/
+/*===========================================*/
+main {
+    /*background-color: rgb(148, 236, 148);*/
+    padding-top: 200px;
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+
+    margin-bottom: 130px;
+    
+}
+
+/*=============Conteúdo principal============*/
+.caixa-principal {
+    background-color: white;
+    /*border: 2px solid green;*/
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.158);
+
+    width: 740px;
+    height: 463px;
+    border-radius: 8px;
+
+    float: left;
+
+    margin-left: 14px;
+    margin-top: -40px;
+}
+/*.destaque {
+    border: 2px solid red;
+    width: 100%;
+    height: 400px;
+}*/
+.caixa-principal img {
+    width: 95%;
+    margin: 19px;
+}
+#imagem-destaque {
+    height: 250px;
+}
+.caixa-principal h2 {
+    margin-left: 18px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.caixa-principal p {
+    margin-left: 18px;
+    color: #bbb8b8;
+    
+} 
+div.autor {
+    /*border: 2px solid red;*/
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.autor h4 {
+    margin-top: -10px;
+    font-weight: normal;
+}
+.autor p {
+    margin-top: 5px;
+    color: #b8b8b8;
+    font-size: 15px;
+}
+.autor img {
+    /*border: 2px solid black;*/
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-top: -19px;
+    margin-right: 10px;
+}
+
+/*=============Conteúdo secundário============*/
+.posts {
+    background-color: white;
+    /*border: 2px solid green;*/
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.158);
+
+    display: flex;
+
+    width: 740px;
+    height: 47%;
+    border-radius: 8px;
+
+    float: left;
+    
+    margin-top: 35px;
+}
+
+.descricao-posts {
+    /*border: 1px solid red;*/
+
+    width: 57%;
+
+    margin-top: 18px;
+    margin-left: 29px;
+}
+.descricao-posts h3 {
+    /*border: 1px solid blue;*/
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.descricao-posts p {
+    /*border: 1px solid yellow;*/
+    margin-bottom: 20px;
+    margin-left: 0px;
+    
+}
+
+div.img-posts {
+    width: 39%;
+}
+
+/*.autor-posts {
+    border: 1px solid green;
+}*/
+
+.autor-posts img {
+    /*border: 2px solid black;*/
+    width: 43px;
+    height: 43px;
+    border-radius: 43px;
+    float: left;
+
+    margin-top: -13px;
+    margin-right: 10px;
+    margin-left: 0px;
+    
+}
+/*===========================================*/
+/*===============Caixa Lateral===============*/
+/*===========================================*/
+
+.caixa-lateral {
+    /*background-color: white;
+    border: 2px solid black;*/
+
+    width: 397px;
+    /*height: 350px;*/
+    height: 90%;
+    border-radius: 8px;
+    float: left;
+
+    margin-left: 30px;
+    margin-top: -40px;
+    position: relative;
+}
+
+/*===============Redes Sociais===============*/
+.redes {
+   /* border: 2px solid green;*/
+    background-color: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.26);
+    
+    width: 397px;
+    height: 360px;
+    border-radius: 8px;
+
+    position: absolute;
+    float: left;
+   
+}
+
+.redes p {
+    /*border: 2px solid blue;*/
+    margin: 22px;
+    font-size: 18px;
+}
+
+.redes ul {
+    list-style: none;
+    text-align: center;
+}
+.redes li {
+    /*border: 2px solid green;*/
+    font-size: 18px;
+    color: white;
+    padding: 16px 0px;
+
+    width: 88%;
+    margin: auto;
+    margin-top: 20px;
+}
+#face {
+    background-color: #334C8C;
+    background-image: url("../img/ícones/facebook.png");
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#twitter {
+    background-color: #26A6D1;
+    background-image: url("../img/ícones/twitter.png");
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#youtube {
+    background-color: rgb(255, 0, 0);
+    background-image: url("../img/ícones/youtube.png");
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#insta {
+    background-color: rgb(184, 25, 118);
+    background-image: url("../img/ícones/instagram.png");
+    background-position: 10px;
+    background-size: 29px;
+    background-repeat: no-repeat;
+}
+
+/*---------------------------Bombando--------------------------*/
+
+.bombando {
+    border-top: 11px solid #E41978;
+    background-color: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.26);
+
+    width: 397px;
+    
+
+    border-radius: 8px;
+    margin-top: 395px;
+
+    float: left;
+    position: absolute;
+    
+}
+
+.bombando h3 {
+    /*border: 1px solid yellow;*/
+    color: #E41978;
+    margin: 19px;
+}
+
+/*.bombando ul {
+    border:  1px solid blue;
+}*/
+
+.bombando li {
+    /*border: 1px solid red;*/
+    
+    list-style: none;
+    margin: 0px 19px 25px 19px;
+}
+
+.bombando li img {
+    width: 355px;
+    margin-top: 0;
+    margin-bottom: 5px;
+} 
+
+div.num-bomb {
+    width: 30px;
+    height: 30px;
+    margin-top: -39px;
+    margin-bottom: 10px;
+    background-color: #E41978;
+    color: white;
+
+    position: relative; /*para centralizar o filho p */
+}
+
+.num-bomb p{
+    font-weight: bold;
+
+    position: absolute;
+    top: 50%; /*centralizando o numero dentro da div pai*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bombando ul li p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p.credito-bomb {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #bdb8b8;
+}
+
+/*===========================================*/
+/*===================Rodapé==================*/
+/*===========================================*/
+
+footer {
+    background-color: white;
+    color: #bdb8b8;
+    font-size: 12px;
+
+    height: 100px;
+    width: 100%;
+    
+    position: relative;
+    bottom: -710px;
+
+    text-align: center;
+
+    line-height: 30px;
+    
+}
+
+footer p {
+    position: absolute;
+    top: 50%; /*centralizando o numero dentro da div pai*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer img {
+    position: absolute;
+    left: 27%;
+    top: 62%;
+}
+
+footer a:visited {
+    color: #bbb8b8;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #8d8989;
+}
+
