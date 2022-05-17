@@ -409,3 +409,140 @@ footer a:hover {
     color: #8d8989;
 }
 
+
+/*====================================================*/
+/*====================Media Query=====================*/
+/*====================================================*/
+
+@media (max-width: 1180px) {
+
+    header {
+        width: 100%;
+    }
+
+    .caixa-principal {
+        width: 540px;
+        margin-left: 50px;
+    }
+
+    .caixa-principal h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+/*===================*/
+/*conteudo secundário*/
+/*===================*/
+    .posts {
+        width: 540px;
+    }
+
+/*===================*/
+/*======Rodapé=======*/
+/*===================*/
+    footer {
+    
+        bottom: -710px;
+        width: 100%;
+    }
+
+}
+/*====================================*/
+@media (max-width: 1038px) {
+
+    main {
+        width: 100vw;
+    }
+
+    .caixa-lateral {
+        width: 387px;
+    }
+}
+/*=====================================*/
+@media (max-width: 1007px) {
+    
+    main {
+        width: 100vw;
+    }
+    
+    .caixa-principal {
+        width: 500px;
+        margin-left: 20px;
+    }
+
+    .posts {
+        width: 500px;
+    }
+
+    .caixa-lateral {
+ 
+        width: 287px;
+    }
+}
+
+/*=====================================*/
+@media (max-width: 942px) {
+
+    main {
+       margin-left: 70px;
+       width: 90%;
+    }
+    .caixa-principal {
+        width: 740px;
+        height: 433px;
+    }
+    .destaque {
+        margin-bottom: 20px;
+    }
+
+    .posts {
+        width: 740px;
+        margin-top: 35px;
+    }
+
+    .caixa-lateral {
+        margin-left: 20px;
+        margin-top: 990px;
+    }
+/*=======Caixa Lateral=======*/
+    .redes {
+        height: 320px;
+        width: 327px;
+
+        position: absolute;
+        float: left;
+
+    }
+ .redes li {
+    /*border: 2px solid green;*/
+    font-size: 17px;
+    line-height: 10px;
+
+}
+
+ .bombando {
+    width: 397px;
+
+    top: -394px;
+    left: 344px;
+    float: left;
+    position: relative;
+    
+ }
+
+ footer {
+     bottom: -1600px;
+ }
+}
+
+/*=====================================*/
+@media (max-width: 842px) {
+    li > img {
+        visibility: collapse;
+    }
+
+}
