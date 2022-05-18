@@ -62,7 +62,7 @@ header nav ul {
 header nav ul {
     /*border: 1px solid yellow;*/
     margin: 0px 90px;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px;
 }
 header nav ul li {
     display: inline;
@@ -422,6 +422,7 @@ footer a:hover {
 
     .caixa-principal {
         width: 540px;
+        height: 433px;
         margin-left: 50px;
     }
 
@@ -439,6 +440,11 @@ footer a:hover {
 /*===================*/
     .posts {
         width: 540px;
+    }
+    .descricao-posts h3 {
+        /*border: 1px solid blue;*/
+        font-size: 18px;
+        margin-bottom: 10px;
     }
 
 /*===================*/
@@ -471,6 +477,7 @@ footer a:hover {
     
     .caixa-principal {
         width: 500px;
+        height: 443px;
         margin-left: 20px;
     }
 
@@ -485,8 +492,26 @@ footer a:hover {
 }
 
 /*=====================================*/
-@media (max-width: 942px) {
-
+@media (max-width: 950px) {
+    header nav ul {
+        background-size: 35px;
+        
+    }
+    header nav ul {
+        /*border: 1px solid yellow;*/
+        margin: 0px 90px;
+        padding: 20px 0px;
+    }
+    header nav ul li {
+        display: inline;
+        width: 100%;
+    
+        margin-right: 10px;
+    
+        font-size: 15px;
+        font-weight: bolder;
+    }
+/*-------------------------------------------*/
     main {
        margin-left: 70px;
        width: 90%;
@@ -504,11 +529,12 @@ footer a:hover {
         margin-top: 35px;
     }
 
+/*=======Caixa Lateral=======*/
     .caixa-lateral {
         margin-left: 20px;
         margin-top: 990px;
     }
-/*=======Caixa Lateral=======*/
+
     .redes {
         height: 320px;
         width: 327px;
@@ -517,22 +543,21 @@ footer a:hover {
         float: left;
 
     }
- .redes li {
-    /*border: 2px solid green;*/
-    font-size: 17px;
-    line-height: 10px;
+    .redes li {
+        font-size: 17px;
+        line-height: 10px;
 
-}
+    } /*===INVERTER AS POSIÇÕES DE redes e bombando */
 
- .bombando {
-    width: 397px;
+    .bombando {
+        width: 397px;
 
-    top: -394px;
-    left: 344px;
-    float: left;
-    position: relative;
-    
- }
+        top: -394px;
+        left: 344px;
+        float: left;
+        position: relative;
+        
+    }
 
  footer {
      bottom: -1600px;
@@ -541,8 +566,8 @@ footer a:hover {
 
 /*=====================================*/
 @media (max-width: 842px) { /*configurar*/
-    li > img {
-        visibility: collapse;
+    header nav ul {
+        background-size: 20px;
+        
     }
-
 }
