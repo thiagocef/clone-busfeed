@@ -427,8 +427,11 @@ footer a:hover {
     }
 
     .caixa-principal h2 {
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 10px;
+    }
+    .caixa-principal p {
+        font-size: 15px;
     }
 
     main {
@@ -440,19 +443,41 @@ footer a:hover {
 /*===================*/
     .posts {
         width: 540px;
+        height: 170px;
+    }
+
+    .descricao-posts {
+    
+        width: 76%;
+        margin-left: 19px;
+        
+
+
     }
     .descricao-posts h3 {
         /*border: 1px solid blue;*/
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: 17px;
+        margin-bottom: 6px;
     }
 
+    .descricao-posts p {
+        font-size: 14px;
+
+    }
+    div.autor-posts {
+        padding-top: 5px;
+        margin-top: 0px;
+    }
+
+    div.img-posts {
+        width: 55%;
+    }
 /*===================*/
 /*======Rodapé=======*/
 /*===================*/
     footer {
     
-        bottom: -710px;
+        bottom: -550px;
         width: 100%;
     }
 
@@ -485,9 +510,19 @@ footer a:hover {
         width: 500px;
     }
 
+    div.img-posts {
+        margin-top: 5px;
+    }
+
     .caixa-lateral {
  
         width: 287px;
+    }
+
+    footer {
+    
+        bottom: -550px;
+        width: 100%;
     }
 }
 
@@ -529,10 +564,29 @@ footer a:hover {
         margin-top: 35px;
     }
 
+    .descricao-posts h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .descricao-posts p {
+        font-size: 16px;
+        margin-bottom: 19px;
+
+    }
+    div.autor-posts {
+        padding-top: 5px;
+        margin-top: 0px;
+    }
+    div.img-posts {
+        margin-top: -7px;
+        width: 38%;
+    }
+
 /*=======Caixa Lateral=======*/
     .caixa-lateral {
         margin-left: 20px;
-        margin-top: 990px;
+        margin-top: 850px;
     }
 
     .redes {
@@ -554,15 +608,13 @@ footer a:hover {
     }
 
  footer {
-     bottom: -1590px;
+     bottom: -1430px;
  }
 }
 
 /*=====================================*/
 @media (max-width: 845px) { /*configurar*/
-    header nav ul {
-        background-image: none;
-    }
+
 
 
     main {
@@ -573,10 +625,12 @@ footer a:hover {
 
 /*=============================*/
 @media (max-width: 798px) {
-
+    header nav ul {
+        background-image: none;
+    }
     .caixa-principal {
         width: 540px;
-        height: 433px;
+        height: 433px; /*CONFIGURAR*/
         margin-left: 95px;
     }
 
